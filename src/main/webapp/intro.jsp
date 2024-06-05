@@ -1,16 +1,20 @@
+<%@ page import="java.io.InputStream, java.net.URL, java.security.MessageDigest" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Geek Factory Project</title>
 	<link rel="stylesheet" href="./css/intro-style.css">
 	<link rel="icon" href="./img/icon.png">
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<!-- Aggiornato con controllo di integrità -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-sME9dQ2LthRQKY1xycLLrsY1fRRFyTHPZsZ5crBPlwE="
+		crossorigin="anonymous"></script>
 </head>
 <body>
 
